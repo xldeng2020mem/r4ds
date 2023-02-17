@@ -443,7 +443,7 @@ This means subsequent operations will now work "by month".
 ### `summarize()` {#sec-summarize}
 
 The most important grouped operation is a summary, which collapses each group to a single row.
-In dplyr, this is operation is performed by `summarize()`[^data-transform-3], as shown by the following example, which computes the average departure delay by month:
+In dplyr, this operation is performed by `summarize()`[^data-transform-3], as shown by the following example, which computes the average departure delay by month:
 
 [^data-transform-3]: Or `summarise()`, if you prefer British English.
 
